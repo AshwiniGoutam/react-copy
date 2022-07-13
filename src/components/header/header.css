@@ -1,0 +1,43 @@
+.nav-background{
+    background-color: #6CBE03;
+}
+.header-logo{
+    position: absolute;
+    width: 85px;
+    height: 54px;
+}
+.me-auto{
+    margin-left: 150px;
+}
+.nav-link{
+    color: white !important;
+}
+.header-signup{
+color: white;
+}
+.header-search{
+    margin-right: 180px;
+}
+.header-right{
+    display: flex;
+    margin-top: 13px;
+}
+.header-div{
+    margin-right: 25px;
+}
+.header-sign{
+    margin-right: 25px;
+}
+.header-eng{
+    margin-right: 25px;
+}
+.header-country{
+    color: white;
+}
+.england{
+    margin-right: 5px;
+}
+.header-bar{
+    margin-right: 60px;
+    font-size: 20px;
+}
