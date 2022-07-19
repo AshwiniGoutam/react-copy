@@ -1,0 +1,161 @@
+/* .reliance-image{
+    position: absolute;
+    width: 290px;
+    height: 338px;
+    left: 220px;
+    top: 132px;
+}
+.reliance-dots{
+    width: 290px;
+    position: relative;
+} */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1;}
+
+.span_2_of_2{
+	width: 100%;
+}
+.span_1_of_2{
+	width: 49.2%;
+    position: relative;
+}
+.reliance-dots{
+    position: relative;
+    width: 350px;
+}
+.reliance-image{
+    position: absolute;
+    width: 331px;
+    height: 385px;
+    left: 260px;
+    top: 121px;
+}
+.relaince-box{
+    position: absolute;
+    left: 210px;
+    top: 140px;
+}
+.relaince-stick{
+    margin-top: 75px;
+    font-size: 24px;
+    color: #6CBE03;
+    font-weight: 600;
+}
+.big-text{
+    font-weight: 700;
+    font-size: 42px;
+}
+.card{
+    width: 200px !important;
+}
+.card-re-1{
+    height: 80px !important;
+    width: 80px !important;
+    margin-left: 58px;
+    margin-top: 20px;
+}
+.agri-re{
+    text-align: center !important;
+    font-weight: 600 !important;
+}
+.card-text{
+    text-align: center;
+    font-size: 13px;
+}
+.re-cards{
+    display:flex;
+}
+.re-card-2{
+    margin-left: 50px;
+}
+.carousel-item.active{
+    display: flex !important;
+}
+.right-box{
+    position: relative;
+    bottom: 35px;
+}
+.rounded mx-auto d-block{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 12px;
+}
+.re-card-flex{
+    display: flex;
+}
+.pd-l{
+    padding-left: 20px;
+}
+.re-icons{
+    color: #6CBE03;
+    font-size: 30px;
+}
+
+
+
+
+
+@media only screen and (max-width: 900px){
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 900px){
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+    .reliance-image{
+        position: relative;
+        width: 290px;
+        height: 325px;
+        top: -267px;
+        left: 60px;
+    }
+    .reliance-dots{
+        position: relative;
+       
+        width: 275px;
+    }
+    .relaince-box{
+        position: relative;
+        right: 261px;
+        top: 59px;
+        height: 325px;
+        left:0px;
+    }
+    .btm-x{
+        position: relative;
+        bottom: 300px;
+    }
+    .right-box{
+        position: relative;
+       
+    }
+    .re-card-1{
+        position: relative !important;
+        right: 23px !important;
+    }
+    .re-card-flex{
+        display: block;
+    }
+    .pd-l{
+        padding-left: 0px;
+    }
+    .title-counter{
+        font-size: 40px;
+    }
+}

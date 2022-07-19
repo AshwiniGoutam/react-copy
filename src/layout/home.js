@@ -4,6 +4,7 @@ import Reliance from "../components/reliance/reliance";
 import Service from "../components/service/service";
 import Store from "../components/store/store";
 import Gallery from "../components/gallery/gallery";
+import Faq from "../components/faq/faq";
 
 const Home = () =>{
 
@@ -14,6 +15,7 @@ return(<>
     <Service/>
     <Store/>
     <Gallery/>
+    <Faq/>
 </>
    
 )
