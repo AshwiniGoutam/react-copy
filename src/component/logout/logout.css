@@ -1,0 +1,48 @@
+.logout{
+    position: absolute;
+    top: 18%;
+    left: 31%;
+    border: 5px solid black;
+    width: 35%;
+    height: 45%;
+}
+.ul-div{
+    display: flex;
+    background-color: grey;
+    height: 53px;
+}
+.li-div{
+    position: relative;
+    left: 173px;
+    font-size: 20px;
+font-weight: bolder;
+top: 10px;
+}
+.li-2{
+    position: relative;
+    left: 315px;
+    font-size: 20px;
+    top: 0px;
+    color: black;
+    background: gray;
+    border: 1px solid gray;
+}
+.li-1{
+    position: relative;
+top: 8px;
+font-size: 22px;
+}
+.img{
+    position: relative;
+left: 26%;
+width: 50%;
+}
+.btn-2{
+    position: absolute;
+top: 80%;
+right: 256px;
+width: 108px;
+height: 38px;
+background: gray;
+border: 1px solid black;
+}
